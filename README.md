@@ -1,7 +1,7 @@
 # Pedidos
 Aplicación móvil para la solicitud de pedidos a una tienda, utilizandi el protocolo REST
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/pKtY4n8/photo-2021-10-12-01-39-50.jpg" width="250" heigth="500"alt="photo-2021-10-12-01-39-50" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/pKtY4n8/photo-2021-10-12-01-39-50.jpg" width="250" heigth="500" alt="photo-2021-10-12-01-39-50" border="0"></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/Dz6BMWh/photo-2021-10-12-00-57-14.jpg" width="250" heigth="500" alt="photo-2021-10-12-00-57-14" border="0" /></a>
 <a href="https://imgbb.com"><img src="https://i.ibb.co/SdqZwnX/photo-2021-10-12-00-57-20.jpg" width="250" heigth="500" alt="photo-2021-10-12-00-57-20" border="0"></a>
 <a href="https://imgbb.com"><img src="https://i.ibb.co/YjtZ61R/photo-2021-10-12-01-36-54.jpg" width="250" heigth="500"  alt="photo-2021-10-12-01-36-54" border="0"></a>
