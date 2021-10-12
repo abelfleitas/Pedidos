@@ -29,11 +29,11 @@ http://pedidosapk.atwebpages.com/
     <td>GET: http://pedidosapk.atwebpages.com/api/bodegas</td>
   </tr>
   <tr>
-    <td>Obtener los cliente</td>
+    <td>Obtener los clientes</td>
     <td>GET: http://pedidosapk.atwebpages.com/api/clientes</td>
   </tr>
   <tr>
-    <td>Obtener un convenio</td>
+    <td>Obtener los convenios</td>
     <td>GET: http://pedidosapk.atwebpages.com/api/convenios</td>
   </tr>
   <tr>
