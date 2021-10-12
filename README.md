@@ -1,14 +1,14 @@
 # Pedidos
 Aplicación movil para la solicitud de pedidos a una tienda, utilizandi el protocolo REST
 
-<img src="https://drive.google.com/file/d/1ZTBlNxjSSkANZWpJGbCRYPTSkSqW497S/view?usp=sharing" alt="Imagen 1"/>
+<img src="https://ibb.co/Gn1ZMpy" alt="Imagen 1"/>
 <img src="https://drive.google.com/file/d/10PTyIgk3X77o3e-V7J8mGVl7G3hStYzH/view?usp=sharing" alt="Imagen 1"/>
 
 
 Api REST
 http://pedidosapk.atwebpages.com/
 
-Descargar la APK desde la siguiente URL
+Descargar la APK desde la siguiente URL:
 https://drive.google.com/file/d/1038NA8zZ-xP1aGK3qsTeTCgLpMqBhtYg/view?usp=sharing
 
 Demo 
