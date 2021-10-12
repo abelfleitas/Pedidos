@@ -18,9 +18,15 @@ Ir a la seción configurar URL y poner la url del API
 Visitar http://pedidosapk.atwebpages.com/api/vendedores para obtener un código de usuario para registrarse
 Contraseña para cualquier usuario: 123456
 
-Endpoints:
-Obtener los cliente
-GET: http://pedidosapk.atwebpages.com/api/clientes
+<h3>Endpoints:</h3>
+<table>
+  <tr>
+    <td>Obtener los cliente</td>
+    <td>GET: http://pedidosapk.atwebpages.com/api/clientes</td>
+  </tr>
+</table>
+
+
 Obtener un convenio
 GET: http://pedidosapk.atwebpages.com/api/convenios
 Obtener los productos
