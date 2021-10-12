@@ -3,6 +3,8 @@ Aplicación móvil para la solicitud de pedidos a una tienda, utilizandi el prot
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/Dz6BMWh/photo-2021-10-12-00-57-14.jpg" width="250" heigth="500" alt="photo-2021-10-12-00-57-14" border="0" /></a>
 <a href="https://imgbb.com"><img src="https://i.ibb.co/SdqZwnX/photo-2021-10-12-00-57-20.jpg" width="250" heigth="500" alt="photo-2021-10-12-00-57-20" border="0"></a>
+<a href="https://imgbb.com"><img src="https://i.ibb.co/YjtZ61R/photo-2021-10-12-01-36-54.jpg" width="250" heigth="500"  alt="photo-2021-10-12-01-36-54" border="0"></a>
+<a href="https://imgbb.com"><img src="https://i.ibb.co/K5Sq3KG/photo-2021-10-12-01-36-59.jpg" width="250" heigth="500"  alt="photo-2021-10-12-01-36-59" border="0"></a>
 <a href="https://imgbb.com"><img src="https://i.ibb.co/v1P6bXF/photo-2021-10-12-00-57-46.jpg" width="250" heigth="500" alt="photo-2021-10-12-00-57-46" border="0"></a>
 <a href="https://imgbb.com"><img src="https://i.ibb.co/4JzK08d/photo-2021-10-12-00-57-40.jpg" width="250" heigth="500" alt="photo-2021-10-12-00-57-40" border="0"></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/WkJJWBJ/photo-2021-10-12-00-57-23.jpg" width="250" heigth="500" alt="photo-2021-10-12-00-57-23" border="0"></a>
