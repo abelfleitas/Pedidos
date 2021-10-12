@@ -19,7 +19,7 @@ http://pedidosapk.atwebpages.com/
 <h3>Demo</h3> 
 <p>Ir a la seción configurar URL y poner la url del API REST</p> 
 <p>Visitar http://pedidosapk.atwebpages.com/api/vendedores para obtener un código de usuario para iniciar sesión</p>
-<p>La ontraseña para cualquier usuario es: <strong>123456</strong></p>
+<p>La contraseña para cualquier usuario es: <strong>123456</strong></p>
 
 <h3>Endpoints:</h3>
 <table>
