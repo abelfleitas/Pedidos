@@ -1,0 +1,262 @@
+<resources>
+
+    <!--Base application theme.-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/color_type_info</item>
+        <item name="colorPrimaryDark">@color/color_type_bluedark</item>
+        <item name="colorAccent">@color/md_brown_500</item>
+    </style>
+
+    <style name="AppThemeAux" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/color_type_info</item>
+        <item name="colorPrimaryDark">@color/color_type_bluedark</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/md_amber_500</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="ThemeDialogo" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorPrimary">@color/md_brown_400</item>
+        <item name="colorPrimaryDark">@color/md_brown_400</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="ThemeDialogo">
+        <item name="android:background">@color/md_brown_400</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="color_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MaterialSwitch">
+        <item name="sw_trackSize">30dp</item>
+        <item name="sw_trackCap">round</item>
+        <item name="sw_thumbRadius">16dp</item>
+        <item name="sw_thumbElevation">2dp</item>
+        <item name="sw_animDuration">@android:integer/config_shortAnimTime</item>
+        <item name="sw_interpolator">@android:anim/decelerate_interpolator</item>
+    </style>
+
+    <style name="AppOverlayTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/primary</item>
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <!--   theme UI controls like checkboxes and text fields e.g. FloatActionButton -->
+        <item name="colorAccent">@color/accent</item>
+        <!-- Title Text Color -->
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <!-- color of the menu overflow icon (three vertical dots) -->
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+    </style>
+
+    <style name="TransparentToolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support Library compability -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="EditText.RoundBorder" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/selector_edittext_round_border_line</item>
+        <item name="android:padding">15sp</item>
+    </style>
+    <style name="EditText.RoundBorder.Transparent" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/selector_edittext_round_border_transparent</item>
+        <item name="android:padding">15sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhiteTransparent</item>
+    </style>
+
+
+    <style name="Button" parent="Base.Widget.AppCompat.Button">
+        <item name="android:padding">20px</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:drawablePadding">20px</item>
+    </style>
+
+    <style name="Button.Inverse" parent="Button">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="Button.Light" parent="Button">
+        <item name="android:background">@drawable/selector_button_light</item>
+        <item name="android:foreground">@drawable/riple_effect</item>
+        <item name="android:textColor">@drawable/selector_text_fill_light</item>
+    </style>
+
+    <style name="Button.Light.Fill">
+        <item name="android:foreground">@drawable/riple_effect_fill</item>
+        <item name="android:background">@drawable/selector_button_light_fill</item>
+    </style>
+
+    <style name="Button.Light.Outline" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_outline_light</item>
+        <item name="android:textColor">@drawable/selector_text_outline_light</item>
+    </style>
+
+    <style name="Button.Default" parent="Button.Light">
+    </style>
+
+    <style name="Button.Default.Fill" parent="Button.Light.Fill">
+    </style>
+
+    <style name="Button.Default.Outline" parent="Button.Light.Outline">
+    </style>
+
+
+    <style name="Button.Dark" parent="Button">
+        <item name="android:background">@drawable/selector_button_dark</item>
+        <item name="android:foreground">@drawable/riple_effect</item>
+        <item name="android:textColor">@drawable/selector_text_fill_dark</item>
+    </style>
+
+    <style name="Button.Dark.Fill">
+        <item name="android:foreground">@drawable/riple_effect_fill</item>
+        <item name="android:background">@drawable/selector_button_dark_fill</item>
+    </style>
+
+    <style name="Button.Dark.Outline" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_outline_dark</item>
+        <item name="android:textColor">@drawable/selector_text_outline_dark</item>
+    </style>
+
+    <style name="Button.Primary" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_primary</item>
+        <item name="android:foreground">@drawable/riple_effect</item>
+        <item name="android:textColor">@drawable/selector_text_fill_primary</item>
+    </style>
+
+    <style name="Button.Primary.Fill">
+        <item name="android:foreground">@drawable/riple_effect_fill</item>
+        <item name="android:background">@drawable/selector_button_primary_fill</item>
+    </style>
+
+    <style name="Button.Primary.Outline" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_outline_primary</item>
+        <item name="android:textColor">@drawable/selector_text_outline_primary</item>
+    </style>
+
+    <style name="Button.Success" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_success</item>
+        <item name="android:foreground">@drawable/riple_effect</item>
+        <item name="android:textColor">@drawable/selector_text_fill_success</item>
+    </style>
+
+    <style name="Button.Success.Fill">
+        <item name="android:foreground">@drawable/riple_effect_fill</item>
+        <item name="android:background">@drawable/selector_button_success_fill</item>
+    </style>
+
+    <style name="Button.Success.Outline" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_outline_success</item>
+        <item name="android:textColor">@drawable/selector_text_outline_success</item>
+    </style>
+
+    <style name="Button.Info" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_info</item>
+        <item name="android:foreground">@drawable/riple_effect</item>
+        <item name="android:textColor">@drawable/selector_text_fill_info</item>
+    </style>
+
+    <style name="Button.Info.Fill">
+        <item name="android:foreground">@drawable/riple_effect_fill</item>
+        <item name="android:background">@drawable/selector_button_info_fill</item>
+    </style>
+
+    <style name="Button.Info.Outline" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_outline_info</item>
+        <item name="android:textColor">@drawable/selector_text_outline_info</item>
+    </style>
+
+    <style name="Button.Warning" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_warning</item>
+        <item name="android:foreground">@drawable/riple_effect</item>
+        <item name="android:textColor">@drawable/selector_text_fill_warning</item>
+    </style>
+
+    <style name="Button.Warning.Fill">
+        <item name="android:foreground">@drawable/riple_effect_fill</item>
+        <item name="android:background">@drawable/selector_button_warning_fill</item>
+    </style>
+
+    <style name="Button.Warning.Outline" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_outline_warning</item>
+        <item name="android:textColor">@drawable/selector_text_outline_warning</item>
+    </style>
+
+    <style name="Button.Danger" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_danger</item>
+        <item name="android:foreground">@drawable/riple_effect</item>
+        <item name="android:textColor">@drawable/selector_text_fill_danger</item>
+    </style>
+
+    <style name="Button.Danger.Fill">
+        <item name="android:foreground">@drawable/riple_effect_fill</item>
+        <item name="android:background">@drawable/selector_button_danger_fill</item>
+    </style>
+
+    <style name="Button.Danger.Outline" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_outline_danger</item>
+        <item name="android:textColor">@drawable/selector_text_outline_danger</item>
+    </style>
+
+    <style name="Button.Accent" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_accent</item>
+        <item name="android:foreground">@drawable/riple_effect</item>
+        <item name="android:textColor">@drawable/selector_text_fill_accent</item>
+    </style>
+
+    <style name="Button.Accent.Fill">
+        <item name="android:foreground">@drawable/riple_effect_fill</item>
+        <item name="android:background">@drawable/selector_button_accent_fill</item>
+    </style>
+
+    <style name="Button.Accent.Outline" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_outline_accent</item>
+        <item name="android:textColor">@drawable/selector_text_outline_accent</item>
+    </style>
+
+    <style name="Button.Transparent" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_transparent</item>
+    </style>
+
+
+    <style name="Button.SemiTransparent.Fill" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_semi_transparent_fill</item>
+    </style>
+
+
+    <style name="Button.SemiTransparent.Outline" parent="Button.Inverse">
+        <item name="android:background">@drawable/layerlist_button_outline_semi_transparent</item>
+        <item name="android:textColor">@drawable/selector_text_outline</item>
+    </style>
+
+
+</resources>

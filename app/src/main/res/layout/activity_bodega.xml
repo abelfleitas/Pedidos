@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_config_url"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="abel.project.twa.vendedor.BodegaActivity">
+
+   <android.support.v7.widget.CardView
+        android:id="@+id/card_viewSearchTrip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <abel.project.twa.vendedor.auxiliar.CircleImageView
+                    android:id="@+id/circleview"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:civ_border_width="2pt"
+                    app:civ_border_color="@color/md_brown_200"
+                    app:civ_circle_background_color="@color/md_brown_500"
+                    android:src="@drawable/jaba"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="left|bottom" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/bodegas"
+                    android:gravity="left|center"
+                    android:textColor="@color/md_brown_500"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="10pt"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/linearOrigen"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="match_parent">
+
+                <gr.escsoft.michaelprimez.searchablespinner.SearchableSpinner
+                    android:id="@+id/SearchableSpinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    app:StartSearchTintColor="@android:color/white"
+                    app:DoneSearchTintColor="@android:color/white"
+                    app:RevealViewBackgroundColor="@color/color_type_info"
+                    app:RevealEmptyText="@string/no_selection"
+                    app:SearchViewBackgroundColor="@color/md_brown_500"
+                    app:ShowBorders="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:BordersSize="1dp"
+                    app:BoarderColor="@android:color/holo_blue_light"
+                    app:SpinnerExpandHeight="322dp"
+                    app:ItemsDivider="@color/md_grey_400"
+                    app:DividerHeight="0.5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llBtnGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <com.app.infideap.stylishwidget.view.AButton
+                    style="@style/Button.Primary.Fill"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnCancelar"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/md_grey_700"
+                    android:text="@string/cancel_button"
+                    android:textColor="@color/white" />
+
+
+                <com.app.infideap.stylishwidget.view.AButton
+                    style="@style/Button.Primary.Fill"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/btnAceptar"
+                    android:elevation="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/md_brown_500"
+                    android:text="@string/aceptar"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_pedidos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="abel.project.twa.vendedor.PedidosActivity">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bodega"
+                    android:gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/md_brown_500"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="7pt"
+                    android:textStyle="italic" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.rey.material.widget.CheckedImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_edit"
+                        app:civ_border_width="2pt"
+                        app:civ_border_color="@color/md_brown_500"
+                        app:civ_circle_background_color="@color/md_brown_200"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/editbodega" />
+
+
+                    <com.app.infideap.stylishwidget.view.AEditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="8pt"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:hint="@string/sel_bodega"
+                        style="@style/EditText.RoundBorder"
+                        android:focusable="false"
+                        android:editable="false"
+                        android:id="@+id/bodega"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s_cliente"
+                    android:gravity="left"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/md_brown_500"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="7pt"
+                    android:textStyle="italic" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.rey.material.widget.CheckedImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_select"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/editCliente" />
+
+                    <com.app.infideap.stylishwidget.view.AEditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="8pt"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:hint="@string/sel_cliente"
+                        style="@style/EditText.RoundBorder"
+                        android:focusable="false"
+                        android:editable="false"
+                        android:id="@+id/cliente"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/convenio"
+                    android:gravity="left"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/md_brown_500"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="7pt"
+                    android:textStyle="italic" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_eliminar_campo"
+                        android:id="@+id/limpiarConvenio"
+                        android:layout_gravity="center_vertical" />
+
+                    <com.app.infideap.stylishwidget.view.AEditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="8pt"
+                        style="@style/EditText.RoundBorder"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:hint="@string/sel_convenio"
+                        android:focusable="false"
+                        android:editable="false"
+                        android:id="@+id/convenio"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/producto"
+                    android:gravity="left"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/md_brown_500"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="7pt"
+                    android:textStyle="italic" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/limpiarProducto"
+                        android:src="@drawable/ic_eliminar_campo"
+                        android:layout_gravity="center_vertical"/>
+
+                    <com.app.infideap.stylishwidget.view.AEditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="8pt"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        style="@style/EditText.RoundBorder"
+                        android:hint="@string/sel_producto"
+                        android:focusable="false"
+                        android:editable="false"
+                        android:id="@+id/producto"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cantidad"
+                    android:gravity="left"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/md_brown_500"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="7pt"
+                    android:textStyle="italic" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.rey.material.widget.CheckedImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_mas"
+                        app:civ_border_width="2pt"
+                        app:civ_border_color="@color/md_brown_500"
+                        app:civ_circle_background_color="@color/md_brown_200"
+                        android:layout_gravity="center_vertical" />
+
+                    <com.app.infideap.stylishwidget.view.AEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="8pt"
+                        android:imeOptions="actionNone"
+                        android:imeActionLabel="Add"
+                        android:inputType="numberDecimal"
+                        style="@style/EditText.RoundBorder"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:hint="@string/sel_cantidad"
+                        android:id="@+id/cantidad"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/llBtnGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+                        <com.app.infideap.stylishwidget.view.AButton
+                            style="@style/Button.Primary.Fill"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnGuardarPedido"
+                            android:layout_weight="1"
+                            android:elevation="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@color/color_type_bluedark"
+                            android:text="@string/save"
+                            android:textSize="8pt" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+</LinearLayout>

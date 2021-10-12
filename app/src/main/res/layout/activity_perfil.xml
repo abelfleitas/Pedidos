@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_perfil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="abel.project.twa.vendedor.PerfilActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/background"
+            android:alpha="0.8"
+            android:layout_height="120dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <abel.project.twa.vendedor.auxiliar.CircleImageView
+                android:id="@+id/circleview"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/kamran1"
+                android:layout_margin="10dp"
+                android:layout_gravity="left|bottom" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center"
+                    android:text="@string/user_code"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/md_brown_600"
+                    android:textSize="10pt" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/md_brown_600"
+                    android:textSize="9pt"
+                    android:text=""
+                    android:id="@+id/idcodigo" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#ACACAC"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <abel.project.twa.vendedor.auxiliar.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_name"
+                    android:textColor="@color/black"
+                    android:textSize="7pt"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_marginLeft="15dp"
+                    android:padding="20dp"/>
+
+                <abel.project.twa.vendedor.auxiliar.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/nombrevendedor"
+                    android:text=""
+                    android:textSize="7pt" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <abel.project.twa.vendedor.auxiliar.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/codbodega"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="7pt"
+                    android:layout_marginLeft="15dp"
+                    android:padding="20dp"/>
+
+                <abel.project.twa.vendedor.auxiliar.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/codBodega"
+                    android:text=""
+                    android:textSize="7pt" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#ACACAC"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#ACACAC"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <abel.project.twa.vendedor.auxiliar.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bodega"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="7pt"
+                    android:layout_marginLeft="15dp"
+                    android:padding="20dp"/>
+
+                <abel.project.twa.vendedor.auxiliar.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/descripBodega"
+                    android:text=""
+                    android:textSize="7pt" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#ACACAC"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <abel.project.twa.vendedor.auxiliar.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:text="@string/user_pref"
+                    android:textSize="7pt"
+                    android:layout_marginLeft="15dp"
+                    android:padding="20dp"/>
+
+                <com.rey.material.widget.Switch
+                    style="@style/MaterialSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="13dp"
+                    android:elevation="0dp"
+                    android:switchPadding="16dp"
+                    android:id="@+id/switcher"
+                    app:sw_thumbColor="@color/md_brown_500" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#ACACAC"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/close"
+                android:orientation="horizontal">
+
+                <abel.project.twa.vendedor.auxiliar.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/user_close_session"
+                    android:textSize="7pt"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_marginLeft="15dp"
+                    android:padding="20dp"/>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:paddingRight="25dp"
+                    android:src="@drawable/ic_back"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#ACACAC"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#868686"
+                android:textSize="16dp"
+                android:background="#f0f0f4"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="35dp"
+                android:id="@+id/status"/>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LnrLt_SearchListContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:visibility="gone">
+
+    <ListView
+        android:id="@+id/LstVw_SpinnerListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="0dp"
+        android:divider="@null"
+        android:background="@android:color/white"
+        android:layout_gravity="top"/>
+
+    <TextView
+        android:id="@+id/TxtVw_EmptyText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/md_grey_300"
+        android:textColor="@color/md_brown_500"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/thereisnot_bodegas"/>
+
+</LinearLayout>

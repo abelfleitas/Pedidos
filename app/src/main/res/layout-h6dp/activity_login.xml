@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/color_type_info">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ib"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imgvw" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="70dp"
+        android:gravity="center_vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/codigoLabel"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/input_codigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/code"
+                android:filterTouchesWhenObscured="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/codigoLabel"
+            android:id="@+id/passwordLabel"
+            android:layout_marginBottom="8dp">
+
+            <EditText android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/password"/>
+
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/passwordLabel"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp"
+            android:padding="12dp"
+            android:background="@drawable/background"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/login" />
+
+        <TextView android:id="@+id/link_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/title_activity_config_url"
+            android:autoLink="none"
+            android:textColorLink="@color/md_brown_500"
+            android:textColor="@color/md_brown_500"
+            android:linksClickable="true"
+            android:gravity="center"
+            android:layout_below="@+id/btn_login"
+            android:textSize="8pt"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/app_name_upper"
+            android:textColor="@color/md_brown_500"
+            android:gravity="bottom|center"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="6dp"
+            android:textSize="6pt" />
+
+    </RelativeLayout>
+
+</LinearLayout>

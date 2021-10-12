@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/ic_user"
+            android:title="@string/title_activity_perfil" />
+        <item
+            android:id="@+id/pedidos"
+            android:icon="@drawable/ic_plus_plus"
+            android:title="@string/title_activity_pedidos" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_config"
+            android:title="@string/title_activity_settings" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_information"
+            android:title="@string/title_activity_about" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/exit" />
+    </group>
+
+
+</menu>

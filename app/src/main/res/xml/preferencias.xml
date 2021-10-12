@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <PreferenceCategory
+            android:title="@string/pref_categoria">
+
+                <Preference
+                    android:title="@string/homeScreenShortcout"
+                    android:key="pref_homescreen_shortcut"
+                    android:summary="@string/addHomeScreenShortcout" />
+
+                <CheckBoxPreference
+                    android:key="reboot"
+                    android:title="@string/rebootAppHeader"
+                    android:soundEffectsEnabled="true"
+                    android:checked="false"
+                    android:summary="@string/rebootApp3"
+                    android:defaultValue="false"
+                    android:id="@+id/reboot"/>
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="@string/scan">
+
+                <CheckBoxPreference
+                    android:key="autofocus"
+                    android:title="@string/auto_focus_off_es2"
+                    android:soundEffectsEnabled="true"
+                    android:summary="@string/focus_summary"
+                    android:defaultValue="true"
+                    android:id="@+id/reboot2"/>
+
+                <MultiSelectListPreference
+                    android:key="formatos"
+                    android:title="@string/formats"
+                    android:summary="@string/formats_description"
+                    android:dialogTitle="@string/formats"
+                    android:negativeButtonText="@string/md_cancel_label"
+                    android:defaultValue="@array/pref_scan_formatos_values"
+                    android:entries="@array/pref_scan_formatos_values"
+                    android:entryValues="@array/pref_scan_formatos_values"
+                    />
+
+        </PreferenceCategory>
+
+
+</PreferenceScreen>
+

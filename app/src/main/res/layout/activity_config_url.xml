@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_config_url"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="abel.project.twa.vendedor.ConfigUrlActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_viewSearchTrip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_change_url"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/md_brown_500"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/titlesCategory"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/linearOrigen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_link"
+                    android:layout_gravity="center_vertical"/>
+
+                <com.app.infideap.stylishwidget.view.AEditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textUri"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="8pt"
+                    style="@style/EditText.RoundBorder"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:hint="@string/url_hint"
+                    android:id="@+id/url"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <com.app.infideap.stylishwidget.view.AButton
+                style="@style/Button.Primary.Fill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnChangeUrl"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/md_brown_500"
+                android:text="@string/aceptar"
+                android:textColor="@color/white"
+                android:elevation="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textSize="8pt"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/ejem_url"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,258 @@
+<resources>
+    <!-- Nombre App -->
+    <string name="app_name">Pedidos APP</string>
+    <string name="app_name_upper">Pedidos APP v1.0</string>
+    <string name="no_use">Pedidos APP requiere mínimo el sistema operativo Android LOLLIPOP (v5.0) o superior</string>
+    <!-- Meunu -->
+    <string name="menu_Buscar">Buscar</string>
+    <string name="menu_hint_Buscar">Buscar...</string>
+    <string name="scan">Scanner</string>
+    <string name="exit">Salir</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="menu_save">Guardar</string>
+
+    <!-- Salir -->
+    <string name="confirm">Confirmación</string>
+    <string name="confirm_exit">¿Está seguro que desea salir?</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="md_cancel_label">Cancelar</string>
+    <!-- Cerrar Sesión -->
+    <string name="confirm_exitsesion">¿Está seguro que desea cerrar su sesión?</string>
+    <string name="delete_registros">¿Está seguro de cancelar el pedido?</string>
+    <string name="successes_msj">El pedido fue eliminado</string>
+    <string name="successes_add_pedido">El producto fue adicionado al pedido</string>
+    <string name="delete_prod">El producto fue eliminado del pedido</string>
+    <!-- Ineternet Config -->
+    <string name="alert">Alerta</string>
+    <string name="alert_text">
+       Por favor revise que su dispositivo esté conectado a una red inalámbrica
+       o a una conexión de datos
+    </string>
+    <string name="noconnection">NO HAY CONEXIÓN</string>
+    <string name="reintentar">Reintentar</string>
+    <!-- Login -->
+    <string name="login">Iniciar sesión</string>
+    <string name="code">Código de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="error_empty">El campo es requerido</string>
+    <string name="error_code">Código de usuario entre 4 y 10 caracteres</string>
+    <string name="url_hint">Escriba la nueva URL</string>
+    <string name="error_url">URL inválida</string>
+    <string name="error_url_sin_bodegas">
+        La petición fue correcta pero,
+        los datos son insuficientes para poder utilizar la aplicación
+    </string>
+    <string name="error_url1">La URL tiene que terminar con el carácter / </string>
+    <string name="text_change_url">Cambiar URL</string>
+    <string name="url_save">Guardada la nueva URL</string>
+    <string name="error_password">El mínimo de caracteres es 6</string>
+    <string name="validate_data">Validando datos...</string>
+    <string name="process">Espere mientras se procesa la factura</string>
+    <string name="process_ok">La factura está lista</string>
+    <string name="process_cancel">La factura fue cancelada</string>
+    <string name="wait">Espere...</string>
+    <string name="validate_url">Validando URL...</string>
+    <string name="error_host">Error de conexión con el servidor</string>
+    <string name="error_info">Informaión</string>
+    <string name="ejem_url">
+        La url debe tener el siguiente formato \n
+        http(s)://(IP ó DNS)/
+    </string>
+    <!-- Bodegas -->
+    <string name="select_bodega">Seleccionar Bodega</string>
+    <string name="bodegas">Bodegas</string>
+    <string name="codbodega">Codigo Bodega:</string>
+    <string name="bodega">Bodega:</string>
+    <string name="thereisnot_bodega">No ha seleccionado ninguna bodega</string>
+    <string name="thereisnot_bodegas">No hay bodegas para seleccionar</string>
+
+
+    <string name="no_selection">Sin selección</string>
+    <string name="done_search">Comenzar búsqueda</string>
+    <string name="start_search">Iniciar búsqueda</string>
+    <string name="search">Buscar...</string>
+    <string name="empty_list">No se han encontrado elementos</string>
+
+
+
+    <!-- Perfil -->
+    <string name="user_code">Código de Usuario</string>
+    <string name="user_name">Nombre:</string>
+    <string name="user_pref">Cerrar su sesión siempre que cierre la app</string>
+    <string name="user_close_session">Cerrar Sesión</string>
+    <!-- Acerca de -->
+    <string name="bugs_description">Reportar errores que le han sucedido a usted o conocidos. Contribuya a la mejora de nuestra aplicación</string>
+    <string name="bugs">Reportar problema</string>
+    <string name="sugerencia">Sugerencia</string>
+    <string name="team">Equipo de desarrollo</string>
+    <string name="luis">Ing. Luis Alberto Jiménez Martínez</string>
+    <string name="abel">Ing. Abel Fleitas Perdomo</string>
+    <string name="juan">Ing. Juan Javier Dans Moreno</string>
+    <string name="luis_email">ljmartinez@uclv.cu</string>
+    <string name="luis_email2">luisothegreat@gmail.com</string>
+    <string name="luis_email3">ljmartinez94@nauta.cu</string>
+    <string name="abel_email">afleitasp@gmail.com</string>
+    <string name="juan_email">jjdans87@gmail.com</string>
+    <string name="error">Error</string>
+    <string name="error_app">Error PEDIDOS</string>
+    <string name="error_app_version">Error PEDIDOS v1.0</string>
+    <string name="copyright">Todos los derechos reservados. Está prohibida cualquier modificación de la aplicación sin la autorización requerida.</string>
+    <string name="sugerencia_description">Descríbanos cambios que deberíamos realizar para perfeccionar la aplicación.</string>
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- Activitys -->
+    <string name="title_activity_principal">Pedido</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="title_activity_pedidos">Adicionar Pedido</string>
+    <string name="title_activity_settings">Opciones</string>
+    <string name="title_activity_about">Acerca de Pedidos</string>
+    <string name="scanner_fragment_activity">Scanner</string>
+    <string name="title_activity_config_url">Configurar URL</string>
+    <!-- Pedidos -->
+    <string name="registar_pedido">Registrar Pedido</string>
+    <string name="select_cliente">Seleccionar Cliente</string>
+    <string name="s_cliente">Cliente:</string>
+    <string name="convenio">Convenio:</string>
+    <string name="select_convenio">Seleccionar Convenio</string>
+    <string name="producto">Producto:</string>
+    <string name="select_producto">Seleccionar Producto</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="error_array_empty">La búsqueda no ha encontrado ningún resultado</string>
+    <string name="save">Adicionar</string>
+    <string name="save_and_continue">Guardar y Continuar</string>
+    <string name="sel_bodega">Seleccione la bodega</string>
+    <string name="sel_cliente">Selecione el cliente</string>
+    <string name="sel_convenio">Seleccione el convenio (Opcional)</string>
+    <string name="sel_producto">Seleccione el producto</string>
+    <string name="sel_cantidad">Cantidad para el producto</string>
+    <string name="client_block">El campo Cliente se encuentra bloqueado</string>
+    <string name="client_first">Primero debe seleccionar el Cliente</string>
+
+    <string name="product_first">Primero debe seleccionar el Producto</string>
+
+    <string name="num_integer">La cantidad tiene que ser mayor que 0</string>
+    <string name="is_edit">Editar Pedido</string>
+    <string name="successes_edit">El producto fue editado</string>
+    <string name="for_cliente">Código ó Nombre del cliente</string>
+    <string name="for_convenio">Código del convenio</string>
+    <string name="for_producto">Código del producto</string>
+
+    <!-- Preferencia -->
+    <string name="pref_categoria">General</string>
+    <string name="homeScreenShortcout">Crear acceso directo en pantalla de inicio</string>
+    <string name="addHomeScreenShortcout">Crear acceso directo en pantalla de inicio para acceder directamente a Pedidos APP</string>
+    <string name="rebootAppHeader">Inicio automático</string>
+    <string name="rebootApp3">Abrir la aplicación siempre que se encienda el smartphone.</string>
+    <string name="addedHomeScreenShortcout">Acceso directo en pantalla de inicio creado</string>
+    <string name="focus_summary">Seleccione si se desea que el scanner auto focalice.</string>
+    <string name="formats_description">Formatos que se pueden scanear</string>
+    <string name="formats">Formatos</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="auto_focus_off_es2">Foco automático</string>
+    <string name="ok_button">Aceptar</string>
+    <string name="select_camera">Seleccionar Camara</string>
+    <string name="choose_formats">Seleccionar Formatos</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="trasera">Trasera</string>
+    <string-array name="pref_scan_formatos_entries">
+        <item>PARTIAL</item>
+        <item>EAN18</item>
+        <item>UPCE</item>
+        <item>ISBN10</item>
+        <item>UPCA</item>
+        <item>EAN13</item>
+        <item>ISBN13</item>
+        <item>I25</item>
+        <item>DATABAR</item>
+        <item>DATABAR_EXP</item>
+        <item>CODABAR</item>
+        <item>CODE39</item>
+        <item>PDF417</item>
+        <item>QRCODE</item>
+        <item>CODE93</item>
+        <item>CODE128</item>
+    </string-array>
+    <string-array name="pref_scan_formatos_values">
+        <item>partial</item>
+        <item>ean18</item>
+        <item>upce</item>
+        <item>isbn10</item>
+        <item>upca</item>
+        <item>ean13</item>
+        <item>isbn13</item>
+        <item>i25</item>
+        <item>databar</item>
+        <item>databar_exp</item>
+        <item>codabar</item>
+        <item>code39</item>
+        <item>pdf417</item>
+        <item>qrcode</item>
+        <item>code93</item>
+        <item>code128</item>
+    </string-array>
+
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+    <!-- Others Need -->
+    <string name="alerta2">Alerta!!!</string>
+    <string name="rebootError2">Ha ocurrido un error al iniciar la aplicación. Por favor, contáctenos</string>
+    <string name="contact_us">Contáctenos</string>
+    <string name="choose">Elija la aplicación</string>
+    <string name="noappemail">No posee aplicaciones para poder enviar correos</string>
+    <!--Errores HTTP-->
+    <string name="error_401_all">No autorizado. Similar al 403 Forbidden, pero específicamente para su uso cuando la autentificación es posible pero ha fallado o aún no ha sido provista. Vea autentificación HTTP básica y Digest access authentication.</string>
+    <string name="error_402_all">Pago requerido. La intención original era que este código pudiese ser usado como parte de alguna forma o esquema de Dinero electrónico o micropagos, pero eso no sucedió, y este código nunca se utilizó.</string>
+    <string name="error_403_all">El servidor no responde. La solicitud fue legal, pero el servidor se rehúsa a responderla. En contraste a una respuesta 401 No autorizado, la autentificación no haría la diferencia.</string>
+    <string name="error_404_all">Recurso no encontrado. Se utiliza cuando el servidor web no encuentra la página o recurso solicitado.</string>
+    <string name="error_405_all">Método no permitido. Una petición fue hecha a una URI utilizando un método de solicitud no soportado por dicha URI; por ejemplo, cuando se utiliza GET en una forma que requiere que los datos sean presentados vía POST, o utilizando PUT en un recurso de solo lectura.</string>
+    <string name="error_406_all">No aceptable. El servidor no es capaz de devolver los datos en ninguno de los formatos aceptados por el cliente, indicados por éste en la cabecera "Accept" de la petición.</string>
+    <string name="error_407_all">Autenticación Proxy requerida.</string>
+    <string name="error_408_all">Tiempo de espera agotado. El cliente falló al continuar la petición - excepto durante la ejecución de videos Adobe Flash cuando solo significa que el usuario cerró la ventana de video o se movió a otro.</string>
+    <string name="error_409_all">Conflicto. Indica que la solicitud no pudo ser procesada debido a un conflicto con el estado actual del recurso que esta identifica.</string>
+    <string name="error_410_all">Ya no disponible. Indica que el recurso solicitado ya no está disponible y no lo estará de nuevo. Debería ser utilizado cuando un recurso ha sido quitado de forma permanente.</string>
+    <string name="error_411_all">Requiere longitud.</string>
+    <string name="error_412_all">Falló precondición.</string>
+    <string name="error_413_all">Solicitud demasiado larga.</string>
+    <string name="error_414_all">URI demasiado larga.</string>
+    <string name="error_415_all">Tipo de medio no soportado.</string>
+    <string name="error_416_all">Rango solicitado no disponible. El cliente ha preguntado por una parte de un archivo, pero el servidor no puede proporcionar esa parte, por ejemplo, si el cliente preguntó por una parte de un archivo que está más allá de los límites del fin del archivo..</string>
+    <string name="error_417_all">Falló expectativa.</string>
+    <string name="error_418_all">"I´m a teapot” o "Soy una tetera".</string>
+    <string name="error_422_all">Entidad no procesable. La solicitud está bien formada pero fue imposible seguirla debido a errores semánticos.</string>
+    <string name="error_423_all">Bloqueado. El recurso al que se está teniendo acceso está bloqueado.</string>
+    <string name="error_424_all">Falló dependencia. La solicitud falló debido a una falla en la solicitud previa.</string>
+    <string name="error_425_all">Colección sin ordenar. Definido en los drafts de WebDav Advanced Collections, pero no está presente en "Web Distributed Authoring and Versioning (WebDAV) Ordered Collections Protocol" (RFC 3648).</string>
+    <string name="error_426_all">Actualización requerida. El cliente debería cambiarse a TLS/1.0.</string>
+    <string name="error_429_all">Demasiadas peticiones. Hay muchas conexiones desde esta dirección de internet.</string>
+    <string name="error_449_all">Reintente con. Una extensión de Microsoft: La petición debería ser reintentada después de hacer la acción apropiada.</string>
+    <string name="error_500_all">Error interno. Es un código comúnmente emitido por aplicaciones empotradas en servidores web, mismas que generan contenido dinámicamente, por ejemplo aplicaciones montadas en IIS o Tomcat, cuando se encuentran con situaciones de error ajenas a la naturaleza del servidor web.</string>
+    <string name="error_501_all">No implementado.</string>
+    <string name="error_502_all">Pasarela incorrecta.</string>
+    <string name="error_503_all">Servicio no disponible.</string>
+    <string name="error_504_all">Tiempo de espera de la pasarela agotado.</string>
+    <string name="error_505_all">Versión de HTTP no soportada.</string>
+    <string name="error_506_all">Variante también negocia.</string>
+    <string name="error_507_all">Almacenamiento insuficiente.</string>
+    <string name="error_509_all">Límite de ancho de banda excedido. Este código de estatus, a pesar de ser utilizado por muchos servidores, no es oficial..</string>
+    <string name="error_510_all">No extendido.</string>
+    <string name="error_general">Ha ocurrido un error inesperado</string>
+
+    <string name="codigo_producto">Código de producto</string>
+    <string name="codigo_convenio">Código de convenio</string>
+    <string name="producto2">Producto</string>
+    <string name="cantidad2">Cantidad</string>
+    <string name="unidad">Unidad</string>
+    <string name="precio">Precio</string>
+    <string name="total">Total</string>
+    <string name="factor_cambio">Factor de cambio</string>
+    <string name="tasa">Tasa</string>
+    <string name="descripcion">Descripción</string>
+    <string name="cant_articulos">Cantidad de artículos</string>
+    <string name="convenio2">Convenio</string>
+    <string name="cliente">Cliente</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="unknow">Desconocido</string>
+</resources>
