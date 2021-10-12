@@ -1,7 +1,7 @@
 # Pedidos
 Aplicación movil para la solicitud de pedidos a una tienda, utilizandi el protocolo REST
 
-<img src="https://ibb.co/Gn1ZMpy" alt="Imagen 1"/>
+https://ibb.co/Gn1ZMpy
 <img src="https://drive.google.com/file/d/10PTyIgk3X77o3e-V7J8mGVl7G3hStYzH/view?usp=sharing" alt="Imagen 1"/>
 
 
