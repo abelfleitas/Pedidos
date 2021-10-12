@@ -10,28 +10,44 @@ Aplicación movil para la solicitud de pedidos a una tienda, utilizandi el proto
 Api REST
 http://pedidosapk.atwebpages.com/
 
-Descargar la APK desde la siguiente URL:
-https://drive.google.com/file/d/1038NA8zZ-xP1aGK3qsTeTCgLpMqBhtYg/view?usp=sharing
+<h3>Descargar la APK desde el siguiente enlace:</h3>
+<a href="https://drive.google.com/file/d/1038NA8zZ-xP1aGK3qsTeTCgLpMqBhtYg/view?usp=sharing">Archivo</a>
 
-Demo 
-Ir a la seción configurar URL y poner la url del API 
+<h3>Demo</h3> 
+<p>Ir a la seción configurar URL y poner la url del API 
 Visitar http://pedidosapk.atwebpages.com/api/vendedores para obtener un código de usuario para registrarse
-Contraseña para cualquier usuario: 123456
+Contraseña para cualquier usuario: 123456</p>
 
 <h3>Endpoints:</h3>
 <table>
+   <tr>
+    <td>Obtener los usuarios</td>
+    <td>GET: http://pedidosapk.atwebpages.com/api/vendedores</td>
+  </tr>
+  <tr>
+    <td>Obtener las Bodegas</td>
+    <td>GET: http://pedidosapk.atwebpages.com/api/bodegas</td>
+  </tr>
   <tr>
     <td>Obtener los cliente</td>
     <td>GET: http://pedidosapk.atwebpages.com/api/clientes</td>
   </tr>
+  <tr>
+    <td>Obtener un convenio</td>
+    <td>GET: http://pedidosapk.atwebpages.com/api/convenios</td>
+  </tr>
+  <tr>
+    <td>Obtener los productos</td>
+    <td>GET: http://pedidosapk.atwebpages.com/api/productos</td>
+  </tr>
+  <tr>
+    <td>Obtener el Factor de Cambio</td>
+    <td>GET: http://pedidosapk.atwebpages.com/api/configuraciones/factor</td>
+  </tr>
+  <tr>
+    <td>Enviar Factura</td>
+    <td>POST: http://pedidosapk.atwebpages.com/api/facturas</td>
+  </tr>
 </table>
 
 
-Obtener un convenio
-GET: http://pedidosapk.atwebpages.com/api/convenios
-Obtener los productos
-GET: http://pedidosapk.atwebpages.com/api/productos
-Obtener el Factor de Cambio
-GET: http://pedidosapk.atwebpages.com/api/configuraciones/factor
-Enviar Factura
-POST: http://pedidosapk.atwebpages.com/api/facturas
