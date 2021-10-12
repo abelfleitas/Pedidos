@@ -28,7 +28,7 @@ http://pedidosapk.atwebpages.com/
     <td>GET: http://pedidosapk.atwebpages.com/api/vendedores</td>
   </tr>
   <tr>
-    <td>Obtener las Bodegas</td>
+    <td>Obtener las bodegas</td>
     <td>GET: http://pedidosapk.atwebpages.com/api/bodegas</td>
   </tr>
   <tr>
@@ -44,7 +44,7 @@ http://pedidosapk.atwebpages.com/
     <td>GET: http://pedidosapk.atwebpages.com/api/productos</td>
   </tr>
   <tr>
-    <td>Obtener el Factor de Cambio</td>
+    <td>Obtener el factor de cambio</td>
     <td>GET: http://pedidosapk.atwebpages.com/api/configuraciones/factor</td>
   </tr>
   <tr>
